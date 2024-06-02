@@ -17,8 +17,8 @@ else
 fi
 
 # See Color formatting section below for details on what colors can be used here.
-TMUX_POWERLINE_DEFAULT_BACKGROUND_COLOR=${TMUX_POWERLINE_DEFAULT_BACKGROUND_COLOR:-'8'}
-TMUX_POWERLINE_DEFAULT_FOREGROUND_COLOR=${TMUX_POWERLINE_DEFAULT_FOREGROUND_COLOR:-'242'}
+TMUX_POWERLINE_DEFAULT_BACKGROUND_COLOR=${TMUX_POWERLINE_DEFAULT_BACKGROUND_COLOR:-'59'}
+TMUX_POWERLINE_DEFAULT_FOREGROUND_COLOR=${TMUX_POWERLINE_DEFAULT_FOREGROUND_COLOR:-'59'}
 # shellcheck disable=SC2034
 TMUX_POWERLINE_SEG_AIR_COLOR=$(air_color)
 
@@ -106,7 +106,7 @@ fi
 # shellcheck disable=SC1143,SC2128
 if [ -z "$TMUX_POWERLINE_LEFT_STATUS_SEGMENTS" ]; then
 	TMUX_POWERLINE_LEFT_STATUS_SEGMENTS=(
-		"pwd 8 4"
+		"pwd 110 229"
 		#"tmux_session_info 148 234"
 		#"hostname 33 0"
 		#"mode_indicator 165 0"
@@ -115,7 +115,7 @@ if [ -z "$TMUX_POWERLINE_LEFT_STATUS_SEGMENTS" ]; then
 		#"lan_ip 136 255"
 		# ${TMUX_POWERLINE_SEPARATOR_RIGHT_THIN}
 		#"vpn 24 255 ${TMUX_POWERLINE_SEPARATOR_RIGHT_THIN}"
-		"wan_ip 4 237"
+		"wan_ip 214 229"
 		#"vcs_branch 180 252"
 		#"vcs_compare 60 255"
 		#"vcs_staged 64 255"
@@ -127,7 +127,7 @@ fi
 # shellcheck disable=SC1143,SC2128
 if [ -z "$TMUX_POWERLINE_RIGHT_STATUS_SEGMENTS" ]; then
 	TMUX_POWERLINE_RIGHT_STATUS_SEGMENTS=(
-		"earthquake 3 0"
+		#"earthquake 3 0"
 		#"pwd 89 211"
 		#"macos_notification_count 29 255"
 		#"mailcount 9 255"
@@ -141,8 +141,8 @@ if [ -z "$TMUX_POWERLINE_RIGHT_STATUS_SEGMENTS" ]; then
 		#"xkb_layout 125 117"
 		"battery 64 255"
 		#"date_day 235 136"
-		"time 254 235"
-		"date 254 235 ${TMUX_POWERLINE_SEPARATOR_LEFT_THIN}"
+		"time 139 235"
+		"date 139 235 ${TMUX_POWERLINE_SEPARATOR_LEFT_THIN}"
 		#"utc_time 235 136 ${TMUX_POWERLINE_SEPARATOR_LEFT_THIN}"
 	)
 fi
