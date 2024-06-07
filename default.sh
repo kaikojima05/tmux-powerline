@@ -106,7 +106,7 @@ fi
 # shellcheck disable=SC1143,SC2128
 if [ -z "$TMUX_POWERLINE_LEFT_STATUS_SEGMENTS" ]; then
 	TMUX_POWERLINE_LEFT_STATUS_SEGMENTS=(
-		"pwd 110 229"
+		"pwd 246 229"
 		#"tmux_session_info 148 234"
 		#"hostname 33 0"
 		#"mode_indicator 165 0"
@@ -115,7 +115,7 @@ if [ -z "$TMUX_POWERLINE_LEFT_STATUS_SEGMENTS" ]; then
 		#"lan_ip 136 255"
 		# ${TMUX_POWERLINE_SEPARATOR_RIGHT_THIN}
 		#"vpn 24 255 ${TMUX_POWERLINE_SEPARATOR_RIGHT_THIN}"
-		"wan_ip 214 229"
+		"wan_ip 173 229"
 		#"vcs_branch 180 252"
 		#"vcs_compare 60 255"
 		#"vcs_staged 64 255"
@@ -139,7 +139,7 @@ if [ -z "$TMUX_POWERLINE_RIGHT_STATUS_SEGMENTS" ]; then
 		#"weather 37 255"
 		#"rainbarf 0 ${TMUX_POWERLINE_DEFAULT_FOREGROUND_COLOR}"
 		#"xkb_layout 125 117"
-		"battery 64 255"
+		"battery 65 255"
 		#"date_day 235 136"
 		"time 139 235"
 		"date 139 235 ${TMUX_POWERLINE_SEPARATOR_LEFT_THIN}"
